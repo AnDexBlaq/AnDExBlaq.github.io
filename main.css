@@ -15,7 +15,7 @@ body{
     width:100%;
     display:-webkit-box;
     -webkit-box-pack: center;
-    background-image: url("https://github.com/AnDexBlaq/AnDExBlaq.github.io/blob/main/image.JPG");
+    background-image: url("image.JPG");
     background-position: center center;
     background-size: cover;
    min-height: 100%;
