@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font: bold 20px Tahoma;
+}
+h2 {
+    font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup {
+    display:block;
+}
+body{
+    width:100%;
+    display:-webkit-box;
+    -webkit-box-pack: center;
+    background-image: url("image.JPG");
+    background-position: center center;
+    background-size: cover;
+   min-height: 100%;
+}
+#big_wrapper{
+    max-width: 1000px;
+    margin: 20px 0px;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+
+}
+#top_header{
+    background: -webkit-linear-gradient(45deg,#116466,white);
+    border: 3px solid rgba(121, 121, 216, 0.589);
+    padding: 20px;
+
+}
+#firstword{
+    font: bold 30px Century Gothic;
+    text-shadow: rgb(110,110,110) 3px 3px 5px;
+}
+#top_menu{
+    background: #0b0c10;
+    color: #c5c6c7;
+}
+#top_menu li{
+    display:inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+}
+#new_div{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+}
+#main_section{
+    border: 1px solid blue;
+    -webkit-box-flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+#side_news{
+    border: 1px solid brown;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 30px;
+    background: #d9b08c;
+}
+#the_footer{
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #116466;
+
+}
+
+
+
+
+#top_menu{
+    border: 2px solid black;
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+}
+#home{
+    border: 2px solid black;
+    background: #116466;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: rgb(110,110,110, .6) 5px 5px 5px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+    
+}
+#home:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 40px;
+    height: 20px;
+}
+
+
+#about{
+    border: 2px solid black;
+    background:#116466;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: rgb(110,110,110, .6) 5px 5px 5px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+    
+}
+#about:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 50px;
+    height: 20px;
+}
+
+
+#tutorials{
+    border: 2px solid black;
+    background: #116466;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: rgb(110,110,110, .6) 5px 5px 5px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+    
+}
+#tutorials:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 90px;
+    height: 20px;
+}
+
+
+#projects{
+    border: 2px solid black;
+    background: #116466;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: rgb(110,110,110, .6) 5px 5px 5px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+    
+}
+#projects:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 90px;
+    height: 20px;
+}
+
+
+#contact{
+    border: 2px solid black;
+    background: #116466;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: rgb(110,110,110, .6 ) 5px 5px 5px;
+    -webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+    
+}
+#contact:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+    background: #1ec7e6;
+    width: 80px;
+    height: 20px;
+}
